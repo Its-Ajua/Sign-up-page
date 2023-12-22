@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Web Development Training</title>
+</head>
+<body>
+    <main class="wrapper">
+        <div class="left">
+            <img src="./assets/Logo.png" alt="logo" />
+            <h2>For Individuals</h2>
+            <p id="info-desktop">Start benefitting from the wellness experience. For companies looking on increasing
+                productivity, and improving organization wellness.</p>
+            <p id="info-mobile">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+        </div>
+        <form class="right">
+            <div class="input-container">
+                <label for="first-name">First Name</label>
+                <input id="first-name" name="first-name" type="text" placeholder="Tolu" />
+            </div>
+            <div class="input-container">
+                <label for="last-name">Last Name</label>
+                <input id="last-name" name="last-name"  type="text" placeholder="" />
+            </div>
+            <div class="select-container">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="">Select here</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" placeholder="Select here"/>
+            </div>
+            <div class="input-container">
+                <label for="weight">Weight (KG)</label>
+                <input id="weight" name="weight" type="number" placeholder="Enter Weight"/>
+            </div>
+            <div class="input-container">
+                <label for="height">Height (CM)</label>
+                <input id="height" name="height" type="number" placeholder="Enter height here.." />
+            </div>
+            <div class="select-container">
+                <label for="level">Activity Level</label>
+                <select id="level" name="level">
+                    <option value="">Select here</option>
+                </select> 
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" />
+            </div>                
+            <button>Register</button>
+            <p class="click">By clicking Register, you agree to our <u style="color: var(--CL-Green)">Terms of use</u> and our <u style="color: var(--CL-Green)">Privacy Policy</u></p>
+        </form>
+    </main>
+</body>
+</html>
