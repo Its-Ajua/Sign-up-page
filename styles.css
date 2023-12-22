@@ -48,7 +48,6 @@ body {
 .left p#info-desktop {
     color: var(--CL-Grey);
     line-height: 25px;
-    /* 156.25% */
     margin-top: 20px;
     margin-right: 120px;
 }
@@ -70,9 +69,6 @@ body {
     gap: 24px 40px;
 }
 
-button{
-    background-color: var(--CL-Green);
-}
 .input-container {
     display: flex;
     flex-direction: column;
@@ -80,7 +76,7 @@ button{
 
 .input-container label,
 .select-container label {
-    color: var(--CL-Grey);
+    color: var(--CL-Blue);
     font-size: 0.875rem;
     font-weight: 500;
     line-height: 1.25rem;
@@ -132,6 +128,7 @@ button {
     font-family: Sofia Pro;
     font-size: 14px;
 }
+
 .select-container select:focus {
     outline: none;
     border: 1px solid var(--CL-Green);
@@ -176,5 +173,6 @@ button {
     .right {
         padding: 2rem;
         grid-template-columns: 1fr;
+        display: block;
     }
 }
