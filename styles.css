@@ -148,7 +148,13 @@ button {
         margin-top: 40px;
     }
 
+    button {
+        grid-column: span 1;
+    }
 
+    .click {
+        grid-column: span 1;
+    }
     .left p {
         margin-right: 0;
     }
@@ -174,5 +180,6 @@ button {
         padding: 2rem;
         grid-template-columns: 1fr;
         display: block;
+        grid-column: span 1;
     }
 }
